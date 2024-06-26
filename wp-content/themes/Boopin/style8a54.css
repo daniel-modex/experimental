@@ -1,0 +1,56 @@
+/*
+Theme Name: Theme
+Theme URI: 
+Author: 
+Author URI: 
+Description: A basic theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: Theme
+*/
+.item_squad, .item_solutions, .item_milestone, .item_victories{
+	display:block;
+	width:100% !important;	
+}
+.item_squad .portfolio_grid-card figure,
+.item_solutions .portfolio_grid-card figure,
+.item_victories .portfolio_grid-card figure,
+.item_milestone .portfolio_grid-card figure{
+		display:none;
+	}
+
+.item_squad .portfolio_grid-card figure h3,
+.item_solutions .portfolio_grid-card figure h3,
+.item_milestone .portfolio_grid-card figure h3{
+		display:none;
+	}
+.item_squad .portfolio_grid-card::before,
+.item_solutions .portfolio_grid-card::before,
+.item_victories .portfolio_grid-card::before,
+.item_milestone .portfolio_grid-card::before{
+	content:unset
+}
+.item_squad .portfolio_grid-card,
+.item_solutions .portfolio_grid-card,
+.item_victories .portfolio_grid-card,
+.item_milestone .portfolio_grid-card{
+	max-height:200px;
+}
+
+.project_summary_tab-section .proj_summary_body-slider .proj_description-bodycopy .success_ratings h4{
+	text-transform: uppercase !important;
+}
+
+@media (max-width: 720px)
+.section_primary-title {
+    font-size: 2.1rem !important;
+}
+
+.strong-text{
+	font-family: gilroy-blackuploaded_file;
+	font-weight:bold;
+}
+
+/* .work_with-us-popup{
+	display:none;
+} */
+
