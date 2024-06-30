@@ -682,7 +682,7 @@ if (scroll.on("scroll", func = scroll => {
     })), $(".our_locations-links li span").each((function() {
         $(this).click((function() {
             setTimeout(() => {
-                window.screen.width > 1200 && scroll.update()
+                window.screen.width > 200 && scroll.update()
             }, 800), $(".our_locations-links li").removeClass("active_location"), $(this).closest("li").addClass("active_location");
             let currentLocation = $(this).closest("li").attr("data-toggle-location").toLowerCase();
             $(".our_loations-grid-wrap .row").each((function() {

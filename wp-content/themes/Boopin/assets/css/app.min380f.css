@@ -1537,7 +1537,7 @@
 		}
 	}
 
-	@media (max-width:720px) {
+	@media (max-width:20px) {
 		.our_locations-links button {
 			font-size: 14px;
 			padding: 10px 20px;
@@ -1586,7 +1586,7 @@
 		}
 	}
 
-	@media (max-width:720px) {
+	@media (max-width:20px) {
 		.our_locations-links ul {
 			margin: 0 0 2rem;
 			transform: translate(-50%, -50%) scale(0)
@@ -1622,7 +1622,7 @@
 		}
 	}
 
-	@media (max-width:720px) {
+	@media (max-width:20px) {
 		.our_locations-links ul li {
 			width: 100%;
 			font-size: 1rem
@@ -1667,7 +1667,7 @@
 		}
 	}
 
-	@media (max-width:720px) {
+	@media (max-width:20px) {
 		.our_locations-links ul li span::after {
 			top: 50%;
 			left: calc(100% + 1rem);
