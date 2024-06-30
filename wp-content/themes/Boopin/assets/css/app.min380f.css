@@ -1658,7 +1658,7 @@
 	.location_filter-open .form_popup-overlay,
 	.map_box_open .form_popup-overlay {
 		opacity: 1;
-		pointer-events: all
+		/* pointer-events: all */
 	}
 
 	@media (max-width:1200px) {
